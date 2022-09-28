@@ -15,7 +15,7 @@ entries:
     - https://github.com/braedon/prometheus-es-exporter
     urls:
     - prometheus-es-exporter-0.2.0-runderwo.tgz
-    version: 0.2.0
+    version: 0.2.0-runderwo
   - apiVersion: v1
     created: "2022-09-27T22:43:29.823112822-04:00"
     description: Run queries on Elasticsearch and export the results as Prometheus
