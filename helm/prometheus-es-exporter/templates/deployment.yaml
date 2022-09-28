@@ -24,7 +24,6 @@ spec:
       labels:
         app: {{ include "name" . }}
         release: {{ .Release.Name }}
-      {{- with .Values.pod.annotations }}
 
     {{- if or .Values.pod.annotations .Values.elasticsearch.queries }}
       annotations:
